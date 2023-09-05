@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+h1{
+            color: blue;
+        }
+
+table.center {
+  margin-left: auto; 
+  margin-right: auto;
+}
+h1 {text-align: center;}
+
+.text-center {
+  text-align: center;
+}
+input[type=text] {
+    margin: 4px 0 0;
+    line-height: normal;
+    width: 407px;
+    height: 13px;
+}
+
+input[type=tel] {
+    margin: 4px 0 0;
+    line-height: normal;
+    width: 407px;
+    height: 13px;
+}
+
+input[type=password] {
+    margin: 4px 0 0;
+    line-height: normal;
+    width: 407px;
+    height: 13px;
+}
+
+input[type=email] {
+    margin: 4px 0 0;
+    line-height: normal;
+    width: 407px;
+    height: 13px;
+}
+
+
+select {
+        width: 407px;
+        margin: 4px;
+    }
+
+</style>
+</head>
+<body>
+    
+<h1>Registration form</h1>
+
+<table style="width:45%" class="center">
+  <tr>
+    <th style="width:25%" align="center">First Name</th>
+    <td>
+  <input type="text" id="first name" name="first name" placeholder="           "
+</td> 
+  </tr>
+
+  <tr>
+        <th align="center">Last Name</th>
+        <td>
+      <input type="text" id="last name" name="last name" placeholder="        "
+    </td> 
+  </tr>
+
+  <tr>
+        <th align="center">Email</th>
+        <td>
+          <input type="email" id="email" name="email" placeholder="      "
+        </td> 
+  </tr>
+
+  <tr>
+        <th align="center">Password</th>
+        <td>
+          <input type="password" id="password" name="password" placeholder="       "
+        </td> 
+  </tr>
+
+  <tr>
+        <th align="center">Re-enter Password</th>
+        <td>
+          <input type="password" id="re-enter password" name="re-enter password" placeholder="          "
+        </td>
+  </tr>
+
+  <tr>
+    <th align="center"><label>Gender</label></th>
+    <td>
+        <input type="radio" name="gender" />Male
+        <input type="radio" name="gender" />Female
+    </td>
+  </tr>
+
+  <tr>
+        <th align="center">Age:</th>
+        <td>
+          <input type="tel" id="age" name="age" placeholder="        "
+        </td>
+  </tr>
+
+  <tr>
+        <th align="center">Phone Number</th>
+        <td>
+          <input type="tel" id="phone" name="phone" placeholder="           "
+        </td>
+  </tr>
+
+  <tr>
+        <th align="center"><label>Address</label></th>
+        <th align="center"><textarea style="width: 413px; height: 60px;"> </textarea></th>
+  </tr>
+
+  <tr>
+        <th align="center">State</th>
+        <td>
+          <input type="text" id="state" name="state" placeholder="         "
+        </td> 
+  </tr>
+
+  <tr>
+    <th align="center"><label>Country:</label></th>
+    <th align="left">
+        <select>
+            <option>Choose your Country</option>
+            <option>Italy</option>
+            <option>France</option>
+            <option>Spain</option>
+        </select>
+    </th>
+  </tr>
+
+  <tr>
+    <th align="center"><label>Languages known</label></th>
+    <td>
+        <input type="checkbox" />English
+        <input type="checkbox" />Kannada
+        <input type="checkbox" />Hindi
+        <input type="checkbox" />Telugu
+    </td>
+  </tr>
+
+  <tr>
+    <td colspan="2" align="left">
+        <input type="checkbox"/> Hereby I declare all the given details are true
+    </td>
+  </tr>
+
+  <tr>
+    <td align="right" colspan="2">Login to <a href="https://ethnus.com/" target="_blank">Ethnus</a> website </td>
+  </tr>
+
+</table>
+
+<div class="text-center">
+  <button type="submit" style="margin:5px;">Register</button>
+</div>
+  
+</body>
+</html>

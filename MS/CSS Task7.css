@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(179, 41, 93);
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 35vw;
+    height: 35vw;
+    background: rgb(117, 18, 64);
+    color: #fff;
+    border-radius: 10px;
+  }
+  
+  .txt_field input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+  }
+  
+  .txt_field label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    font-size: 16px;
+    pointer-events: none;
+  }
+
+  button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    }
+    button[type="submit"]:hover {
+    background-color: white;
+    }

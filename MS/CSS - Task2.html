@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.vertical-menu {
+  width: 200px;
+}
+
+.vertical-menu a {
+  background-color: rgb(111, 205, 218);
+  color: blue;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc;
+}
+
+.vertical-menu a.active {
+  background-color: #ec9d0b;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(221, 217, 217);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: blue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(145, 139, 139);
+}
+
+.active {
+  color: white;
+  background-color: #7c8380;
+}
+</style>
+</head>
+<body>
+
+<h1>Vertical Navigation bar</h1>
+
+<div class="vertical-menu">
+  <a href="#" class="active">Home</a>
+  <a href="#">Java</a>
+  <a href="#">HTML</a>
+  <a href="#">CSS</a>
+  <a href="#">Bootstrap</a>
+</div>
+
+<h1>Horizantal Navigation Bar</h1>
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">Java</a></li>
+  <li><a href="#contact">HTML</a></li>
+  <li><a href="#about">CSS</a></li>
+</ul>
+
+</body>
+</html>
